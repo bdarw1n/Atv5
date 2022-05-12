@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include<stdlib.h>
+///struct:
+typedef struct pessoa{
+int idade;
+char endereco[100];
+char nome[110];
+}P;
+
+int main (){
+P a;
+printf("nome: ");
+scanf("%s", a.nome );
+printf("\nidade: ");
+scanf("%d", &a.idade );
+printf("\nendereço: ");
+scanf("%s", a.endereco );
+return 0;
+}
