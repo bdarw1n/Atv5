@@ -17,7 +17,7 @@ z = c;
 
 
 int main (){
-printf("soma de vetores num plano tridimensionais.");
+printf("soma de vetores num plano tridimensional.");
 printf("\n\n");
 float a,b,c;
 printf("Digite os valores do primeiro vetor:\n");
